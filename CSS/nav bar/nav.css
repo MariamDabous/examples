@@ -1,0 +1,12 @@
+.nav{
+    background-color: black;
+    display: flex;
+}
+.nav-title{
+    color: white;
+}
+ul.nav-links{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}

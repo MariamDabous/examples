@@ -1,0 +1,45 @@
+.back{
+    background: silver ;
+    border-top: solid 5px black;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.body1 img{
+    height: 200px;
+}
+.body2 img{
+    height: 200px;
+}
+.body3 img{
+    height: 200px;
+}
+.body1{
+    background-color: bisque;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.body2{
+    background-color: aquamarine;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.body3{
+    background-color:white;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+}

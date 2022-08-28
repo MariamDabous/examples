@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    background-color: white;
+    width: 900px;
+    height: 100px;
+    justify-content: space-between;
+    flex: 1;
+}
+.col{
+    width:100px;
+    background-color: aqua;
+    align-items: center;
+    
+}

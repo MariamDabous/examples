@@ -1,0 +1,8 @@
+div{
+    border:2px dotted red;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 50px;
+}

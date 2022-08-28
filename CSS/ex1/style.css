@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    text-align: center;
+    background-color: aqua;
+}
+.color-red{
+    color: red;
+}
+.color-green{
+    color: green;
+}
+.color-blue{
+    color:blue;
+}
+#emphasized{
+    font-style: italic;
+}
