@@ -9,7 +9,7 @@
  .nav{
      color: white;
      background-color: black;
-     width: 100%;
+     width: 750px;
      height: 80px;
      text-decoration: none;
      display: flex;
@@ -48,7 +48,7 @@
  }
  .container{
     border: solid 2px rgb(196, 196, 214);
-    width: 600px;
+    width: 400px;
     /* position: fixed; */
     margin: 20px;
     display: flex;
@@ -56,7 +56,7 @@
     
 }
 .header{
-    background-color: blue;
+    background-color: #17a2b8;
     /* flex: 1; */
     height: 100px;
 }
@@ -73,7 +73,7 @@
 }
 .info{
     padding: 50px 0px 10px 20px;
-    height: 200px;
+    height: 150px;
     /* flex: 3; */
 }
 .pic{
@@ -89,7 +89,7 @@
     border: solid 2px rgb(196, 196, 214);
     position: absolute;
     top: 120px;
-    left: 650px;
+    left: 450px;
     margin: -10px;
 }
 .conn-title{
@@ -129,4 +129,67 @@
     justify-content: space-around;
     align-items: center;
 }
+.edu{
+    background-color: blueviolet;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+}
+.TopEdu{
+    background-color: black;
+    height: 40px;
+    color: white;
+    padding: 5px 0 5px 30px;
+    display: flex;
+    align-items: center;
+}
+.infoEdu{
+    padding: 5px 0 5px 30px;
+    color: black;
+    background-color: white;
+    border-right: solid 2px rgb(196, 196, 214);
+    border-left:solid 2px rgb(196, 196, 214);
+    
+}
+.infoEdu h4{
+    color: rgb(196, 196, 214) ;
+}
+.yourCon{
+    width: 280px;
+    height: 200px;
+    position:absolute;
+    top:300px;
+    left:450px;
+    background-color: aqua;
+}
 
+.yourcon-up{
+    background-color: black;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    
+}
+.circle2{
+    width: 40px;
+    height: 20px;
+    border-radius: 70%;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+
+}
+.ad{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-start;
+}
+.people img{
+    width: 20px;
+    height: 20px;
+}

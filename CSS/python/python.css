@@ -1,12 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-    border: 1px dotted red;
+    /*border: 1px dotted red;*/
+    
 }
 form{
     width:970px;
-    height: 900px;
-    background-color: rgb(55, 72, 155);
+    
+    background-color: #245076;
 }
 header{
     height: 150px;
@@ -18,11 +19,13 @@ header img{
 }
 .navbar{
     height: 50px;
-    background-color: aquamarine;
+    background-color:#477ead;
     margin:0 50px 0 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 10px;
+    color: white;
     
     
 
@@ -44,10 +47,11 @@ header img{
 
 .middle1{
     height: 350px;
-    background-color: blueviolet;
+    /*-color: blueviolet;*/
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    color: white;
     
     
 
@@ -56,12 +60,13 @@ header img{
 .links{
     width: 200px;
     height: 250px;
-    background-color: red;
+    /*background-color: red;*/
     color: white;
     display: flex;
     text-align: center;
     padding: 20px;
     list-style-position: inside;
+    margin-left: 20px;
     
 }
 .links ul li{
@@ -72,40 +77,64 @@ header img{
     color: white;
 }
 .info{
-    width:600px;
+    width:580px;
     height:300px;
-    background-color: blue;
+    /*background-color: blue;*/
     text-align: center;
     padding: 10px;
+    margin-right: 20px;
 }
 .info h1{
     font-style: italic;
+    font-size:large;
+    margin-bottom: 10px;
+    color: #d6bb3f;
+}
+.info h2{
+    font-size: large;
+    font-weight: lighter;
 }
 .middle2{
-    height: 200px;
+    height: 250px;
     background-color: white;
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
+    padding-top:10px;
+
+}
+.middle2 li{
+    color:#75a8d5;
+    
 
 }
 .start{
-    width: 300px;
-    background-color: aquamarine;
+    width: 350px;
+    /*background-color: aquamarine;*/
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #73a7d5;
 }
 .app{
-    width: 300px;
-    background-color: aqua;
+    width: 350px;
+    /*background-color: aqua;*/
+    text-align: center;
+    border-top: 5px solid #73a7d5;
 }
 .footer{
     height: 100px;
-    background-color: brown;
+    /*background-color: brown;*/
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    color: #86b8e4;
     
 
 }
 .si{
     height:40px;
     width: 200px;
-    background-color: green;
+    /*background-color: green;*/
     position: absolute;
     top: 10px;
     left: 750px;
