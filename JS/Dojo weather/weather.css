@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*border: 2px dotted red;*/
+    font-family: cursive;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    /*background-color: aqua;*/
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:#9fc5f8 ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 20%;
+}
+nav h1{
+    font-size: 40px;
+}
+nav ul  {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    padding: 0 42.5% 0 0;
+
+}
+nav ul li{
+    margin-left: 5%;
+}
+#city{
+    cursor: pointer;
+}
+
+main{
+    width: 60%;
+    height: 500px;
+    /*background-color: blue;*/
+    margin: 0 20% 0 20%;
+}
+
+header{
+    
+    height: 100px;
+    /*background-color: pink;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+
+}
+header h2{
+    font-size: 35px;
+}
+.middle{
+    height: 350px;
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 5px 0;
+}
+.day{
+    background-color:#eeeeee;
+    /*width: 250px;*/
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+.day img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.num{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    
+}
+.re{
+    color: red;
+    /*background-color: red;*/
+    
+}
+.bl{
+    color: blue;
+    /*background-color: blue;
+    8width: 20px;
+    height: 20px;*/
+    
+}
+footer{
+    height: 100px;
+    width: 59%;
+    margin: 0 20% 0 20%;
+    /*background-color: green;*/
+    border: 3px solid black;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+footer h4 {
+    font-size: 30px;
+}
+button{
+    width: 20%;
+    height: 25%;
+    background-color: #9fc5f8;
+    margin: 10px;
+    box-shadow: 5px 5px 5px black;
+}

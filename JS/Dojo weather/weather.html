@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forcast</title>
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>DojoWeather</h1>
+            <ul id="city" >
+                <li onclick="CityMess(this)">Burbank</li>
+                <li onclick="CityMess(this)">Chicago</li>
+                <li onclick="CityMess(this)">Dallas</li>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <h2>San Jose</h2>
+                <div class="sel">
+                    show temperature in
+                    <select>
+                        <option>&#176C</option>
+                        <option>&#176F</option>
+                    </select>
+                </div>
+                
+            </header>
+            <div class="middle">
+                <div class="day">
+                    <h3>Today</h3>
+                    <img src="rain.png">
+                    <h4>some rain</h4>
+                    <div class="num"><p class="re">24&#176</p><p class="bl">18&#176</p></div>
+                </div>
+                <div class="day">
+                    <h3>Tomorrow</h3>
+                    <img src="sun.png">
+                    <h4>some sun</h4>
+                    <div class="num"><p class="re">27&#176</p><p class="bl">19&#176</p></div>
+                </div>
+                <div class="day">
+                    <h3>Friday</h3>
+                    <img src="clouds.png">
+                    <h4>some clouds</h4>
+                    <div class="num"><p class="re">21&#176</p><p class="bl">16&#176</p></div>
+                </div>
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <img src="sun.png">
+                    <h4>some sun</h4>
+                    <div class="num"><p class="re">26&#176</p><p class="bl">21&#176</p></div>
+                </div>
+            </div>
+        </main>
+        <footer id="but">
+            <img src="cookie.png">
+            <div class="paragraph">
+                <h4>Stop! Cookie time</h4>We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffic. <a href="#">Read more...</a>
+            </div>
+            <button  onclick="rem1()">I Accept</button>
+        </footer>
+    </div>
+    
+
+    <script src="weather.js"></script>
+</body>
+</html>
