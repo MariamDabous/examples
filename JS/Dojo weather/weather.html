@@ -21,11 +21,11 @@
         <main>
             <header>
                 <h2>San Jose</h2>
-                <div class="sel">
+                <div class="sel" >
                     show temperature in
-                    <select>
-                        <option>&#176C</option>
-                        <option>&#176F</option>
+                    <select onchange="convert(value)">
+                        <option value="1">&#176C</option>
+                        <option value="2">&#176F</option>
                     </select>
                 </div>
                 
@@ -35,25 +35,25 @@
                     <h3>Today</h3>
                     <img src="rain.png">
                     <h4>some rain</h4>
-                    <div class="num"><p class="re">24&#176</p><p class="bl">18&#176</p></div>
+                    <div class="num"><p class="re"><span>24</span><span>&#176</span></p><p class="bl"><span>18</span><span>&#176</span></p></div>
                 </div>
                 <div class="day">
                     <h3>Tomorrow</h3>
                     <img src="sun.png">
                     <h4>some sun</h4>
-                    <div class="num"><p class="re">27&#176</p><p class="bl">19&#176</p></div>
+                    <div class="num"><p class="re"><span>27</span><span>&#176</span></p><p class="bl"><span>19</span><span>&#176</span></p></div>
                 </div>
                 <div class="day">
                     <h3>Friday</h3>
                     <img src="clouds.png">
                     <h4>some clouds</h4>
-                    <div class="num"><p class="re">21&#176</p><p class="bl">16&#176</p></div>
+                    <div class="num"><p class="re"><span>21</span><span>&#176</span></p><p class="bl"><span>16</span><span>&#176</span></p></div>
                 </div>
                 <div class="day">
                     <h3>Saturday</h3>
                     <img src="sun.png">
                     <h4>some sun</h4>
-                    <div class="num"><p class="re">26&#176</p><p class="bl">21&#176</p></div>
+                    <div class="num"><p class="re"><span>26</span><span>&#176</span></p><p class="bl"><span>21</span><span>&#176</span></p></div>
                 </div>
             </div>
         </main>
